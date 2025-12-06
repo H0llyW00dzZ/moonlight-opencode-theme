@@ -54,7 +54,7 @@
       "light": "redDark"
     },
     "secondary": {
-      "dark": "redDark",
+      "dark": "eclipseRed",
       "light": "red"
     },
     "error": "red",
@@ -178,6 +178,6 @@
       "dark": "gray15",
       "light": "gray1"
     },
-    "syntaxType": "red"
+    "syntaxType": "eclipseRed"
   }
 }
