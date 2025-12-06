@@ -20,7 +20,7 @@ mkdir -p ~/.config/opencode/themes
 
 2. Download the theme file:
 ```bash
-curl -o ~/.config/opencode/themes/moonlight.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/main/.opencode/themes/moonlight.json
+curl -o ~/.config/opencode/themes/moonlight.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight.json
 ```
 
 That's it! The theme is now available globally in opencode.ai.
