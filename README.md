@@ -75,7 +75,7 @@ Most modern terminals (iTerm2, Alacritty, Kitty, Windows Terminal, GNOME Termina
 The theme uses the moonlight color scheme with comprehensive color definitions:
 
 ### Core Colors
-- **Background**: `#222436` (dark blue-gray) / Transparent in Moonlight II
+- **Background**: `#222436` (dark blue-gray)
 - **Focus/Panel**: `#1e2030` (medium gray-blue)
 - **Primary**: `#82aaff` (light blue)
 - **Accent**: `#86e1fc` (bright cyan) / `#4fd6be` (vibrant teal) in Moonlight II
