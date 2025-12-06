@@ -1,27 +1,35 @@
 {
   "$schema": "https://opencode.ai/theme.json",
   "defs": {
-    "gray1": "#0f0a0a",
-    "gray2": "#1f1a1a",
-    "gray3": "#2f2a2a",
-    "gray4": "#3f3a3a",
-    "gray5": "#4f4a4a",
-    "gray6": "#5f5a5a",
-    "gray7": "#6f6a6a",
-    "gray8": "#7f7a7a",
-    "gray9": "#8f8a8a",
-    "gray10": "#9f9a9a",
-    "gray11": "#b0aaaa",
-    "gray12": "#c0baba",
-    "gray13": "#d0caca",
-    "gray14": "#e0dada",
-    "gray15": "#f0eaea",
-    "blue": "#6495ed",
+    "gray1": "#0d0808",
+    "gray2": "#1a1212",
+    "gray3": "#271c1c",
+    "gray4": "#342626",
+    "gray5": "#413030",
+    "gray6": "#4e3a3a",
+    "gray7": "#5b4444",
+    "gray8": "#684e4e",
+    "gray9": "#755858",
+    "gray10": "#826262",
+    "gray11": "#9a7676",
+    "gray12": "#b28a8a",
+    "gray13": "#ca9e9e",
+    "gray14": "#e2b2b2",
+    "gray15": "#f5e6e6",
+    "bloodRed": "#cc0000",
+    "crimson": "#dc143c",
+    "darkCrimson": "#8b0000",
+    "firebrick": "#b22222",
+    "eclipseRust": "#8b4513",
+    "eclipseCopper": "#b87333",
+    "eclipseMahogany": "#c04000",
+    "eclipseAmber": "#d4691a",
+    "moonGlow": "#ffd700",
+    "blue": "#5f8dd3",
     "blueDark": "#4169e1",
-    "red": "#dc143c",
-    "redDark": "#b22222",
     "green": "#2e8b57",
-    "yellow": "#daa520"
+    "yellow": "#daa520",
+    "orange": "#ff8c00"
   },
   "theme": {
     "background": {
@@ -41,23 +49,23 @@
       "light": "gray1"
     },
     "textMuted": {
-      "dark": "gray14",
-      "light": "gray2"
+      "dark": "gray12",
+      "light": "gray4"
     },
     "accent": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "crimson",
+      "light": "darkCrimson"
     },
     "primary": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "bloodRed",
+      "light": "firebrick"
     },
     "secondary": {
-      "dark": "redDark",
-      "light": "red"
+      "dark": "eclipseCopper",
+      "light": "eclipseMahogany"
     },
-    "error": "red",
-    "warning": "yellow",
+    "error": "bloodRed",
+    "warning": "eclipseAmber",
     "success": "green",
     "info": {
       "dark": "blue",
@@ -68,34 +76,47 @@
       "light": "gray12"
     },
     "borderActive": {
-      "dark": "gray5",
-      "light": "gray11"
+      "dark": "crimson",
+      "light": "firebrick"
+    },
+    "borderSubtle": {
+      "dark": "gray3",
+      "light": "gray13"
     },
     "syntaxKeyword": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "crimson",
+      "light": "darkCrimson"
     },
-    "syntaxString": "yellow",
-    "syntaxComment": "gray8",
+    "syntaxString": {
+      "dark": "eclipseAmber",
+      "light": "orange"
+    },
+    "syntaxComment": {
+      "dark": "gray8",
+      "light": "gray8"
+    },
     "syntaxFunction": {
-      "dark": "blue",
-      "light": "blueDark"
+      "dark": "eclipseCopper",
+      "light": "eclipseMahogany"
     },
     "syntaxVariable": {
       "dark": "gray12",
-      "light": "gray4"
+      "light": "gray5"
     },
-    "syntaxNumber": "green",
+    "syntaxNumber": {
+      "dark": "eclipseAmber",
+      "light": "orange"
+    },
     "syntaxOperator": {
-      "dark": "gray10",
-      "light": "gray6"
+      "dark": "firebrick",
+      "light": "darkCrimson"
     },
-    "borderSubtle": {
-      "dark": "gray4",
-      "light": "gray12"
+    "syntaxType": {
+      "dark": "eclipseRust",
+      "light": "eclipseMahogany"
     },
     "diffAdded": "green",
-    "diffRemoved": "red",
+    "diffRemoved": "bloodRed",
     "diffContext": {
       "dark": "gray8",
       "light": "gray8"
@@ -105,7 +126,7 @@
       "light": "gray7"
     },
     "diffHighlightAdded": "green",
-    "diffHighlightRemoved": "red",
+    "diffHighlightRemoved": "crimson",
     "diffAddedBg": {
       "dark": "gray3",
       "light": "gray13"
@@ -119,7 +140,7 @@
       "light": "gray15"
     },
     "diffLineNumber": {
-      "dark": "gray6",
+      "dark": "gray7",
       "light": "gray7"
     },
     "diffAddedLineNumberBg": {
@@ -135,48 +156,56 @@
       "light": "gray1"
     },
     "markdownHeading": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "crimson",
+      "light": "darkCrimson"
     },
     "markdownLink": {
-      "dark": "blue",
-      "light": "blueDark"
+      "dark": "eclipseCopper",
+      "light": "eclipseMahogany"
     },
     "markdownLinkText": {
-      "dark": "blue",
-      "light": "blueDark"
+      "dark": "eclipseAmber",
+      "light": "orange"
     },
-    "markdownCode": "yellow",
+    "markdownCode": {
+      "dark": "eclipseAmber",
+      "light": "orange"
+    },
     "markdownBlockQuote": {
       "dark": "gray8",
       "light": "gray8"
     },
-    "markdownEmph": "red",
-    "markdownStrong": "redDark",
+    "markdownEmph": {
+      "dark": "crimson",
+      "light": "firebrick"
+    },
+    "markdownStrong": {
+      "dark": "bloodRed",
+      "light": "darkCrimson"
+    },
     "markdownHorizontalRule": {
-      "dark": "gray6",
-      "light": "gray7"
+      "dark": "eclipseRust",
+      "light": "eclipseMahogany"
     },
     "markdownListItem": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "crimson",
+      "light": "firebrick"
     },
     "markdownListEnumeration": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "eclipseCopper",
+      "light": "eclipseMahogany"
     },
     "markdownImage": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "eclipseAmber",
+      "light": "orange"
     },
     "markdownImageText": {
-      "dark": "red",
-      "light": "redDark"
+      "dark": "eclipseCopper",
+      "light": "eclipseMahogany"
     },
     "markdownCodeBlock": {
-      "dark": "gray15",
-      "light": "gray1"
-    },
-    "syntaxType": "red"
+      "dark": "gray14",
+      "light": "gray2"
+    }
   }
 }
