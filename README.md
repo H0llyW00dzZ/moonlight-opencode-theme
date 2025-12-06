@@ -1,6 +1,11 @@
-# 🌌 Moonlight theme for opencode.ai
+# 🌌 Moonlight themes for opencode.ai
 
-A minimal, frameless dark theme for opencode.ai inspired by the [moonlight](https://github.com/atomiks/moonlight-vscode-theme) VS Code theme.
+Minimal, frameless dark themes for opencode.ai inspired by the [moonlight](https://github.com/atomiks/moonlight-vscode-theme) VS Code theme.
+
+## Available Themes
+
+- **Moonlight**: Classic dark theme with solid backgrounds
+- **Moonlight II**: Alternative variant with refined color accents
 
 ## Features
 
@@ -18,25 +23,41 @@ A minimal, frameless dark theme for opencode.ai inspired by the [moonlight](http
 mkdir -p ~/.config/opencode/themes
 ```
 
-2. Download the theme file:
+2. Download the theme files:
+
+#### Moonlight
 ```bash
 curl -o ~/.config/opencode/themes/moonlight.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight.json
 ```
 
-That's it! The theme is now available globally in opencode.ai.
+#### Moonlight II
+```bash
+curl -o ~/.config/opencode/themes/moonlight-ii.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight-ii.json
+```
+
+That's it! The themes are now available globally in opencode.ai.
 
 ## Usage
 
-### Using the theme
+### Using the themes
 
 1. Open opencode.ai
-2. Type `/theme` and select `moonlight`
+2. Type `/theme` and select `moonlight` or `moonlight-ii`
 3. Or add it to your `opencode.json` config:
 
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "moonlight"
+}
+```
+
+or
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "moonlight-ii"
 }
 ```
 
@@ -54,10 +75,10 @@ Most modern terminals (iTerm2, Alacritty, Kitty, Windows Terminal, GNOME Termina
 The theme uses the moonlight color scheme with comprehensive color definitions:
 
 ### Core Colors
-- **Background**: `#222436` (dark blue-gray)
+- **Background**: `#222436` (dark blue-gray) / Transparent in Moonlight II
 - **Focus/Panel**: `#1e2030` (medium gray-blue)
 - **Primary**: `#82aaff` (light blue)
-- **Accent**: `#86e1fc` (bright cyan)
+- **Accent**: `#86e1fc` (bright cyan) / `#4fd6be` (vibrant teal) in Moonlight II
 - **Strong Teal**: `#4fd6be` (vibrant teal)
 
 ### Semantic Colors
@@ -81,10 +102,11 @@ The theme uses the moonlight color scheme with comprehensive color definitions:
 
 ```
 .opencode/themes/
-└── moonlight.json    # Main theme file
+├── moonlight.json      # Classic theme with solid backgrounds
+└── moonlight-ii.json   # Enhanced theme with transparent backgrounds
 ```
 
-The theme follows the opencode.ai JSON theme format with:
+The themes follow the opencode.ai JSON theme format with:
 - Color definitions in the `defs` section
 - Dark/light variants for all colors
 - Semantic color mapping for UI elements and syntax highlighting
