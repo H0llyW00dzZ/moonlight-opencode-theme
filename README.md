@@ -7,7 +7,7 @@ Minimal, frameless dark themes for [opencode.ai](https://github.com/sst/opencode
 - **[Moonlight](.opencode/themes/moonlight.json)**: Classic dark theme with blue-tinted grays and vibrant blues/teals
 - **[Moonlight II](.opencode/themes/moonlight-ii.json)**: Alternative variant with blue-tinted grays and refined teal accents
 - **[Moonlight III](.opencode/themes/moonlight-iii.json)**: Green-accented variant with neutral grays, toned blues, and yellow code elements, evoking lunar landscapes
-- **[Moonlight Eclipse](.opencode/themes/moonlight-eclipse.json)**: Darker variant with red-tinted grays, crimson accents, and subtle eclipseRed for 🌕🔴 blood moon effect
+- **[Moonlight Eclipse](.opencode/themes/moonlight-eclipse.json)**: Darker variant with deep red-tinted grays, blood moon reds (crimson, copper, mahogany), and amber glow for lunar eclipse effect
 
 ## Features
 
@@ -123,18 +123,18 @@ Themes use variations of the moonlight palette with comprehensive color definiti
 - **Accent**: Green with yellow code elements
 
 ### Moonlight Eclipse
-- **Grays**: Red-tinted (#0f0a0a to #f0f0f0)
-- **Blues**: #6495ed (toned), #4169e1 (dark)
-- **Reds**: #dc143c (crimson), #b22222 (dark), #8b4513 (eclipseRed)
+- **Grays**: Deep red-tinted (#0d0808 to #f5e6e6)
+- **Blues**: #5f8dd3 (muted), #4169e1 (dark)
+- **Reds**: #cc0000 (bloodRed), #dc143c (crimson), #8b0000 (darkCrimson), #b22222 (firebrick), #8b4513 (eclipseRust), #b87333 (eclipseCopper), #c04000 (eclipseMahogany)
+- **Yellows/Oranges**: #daa520 (goldenrod), #ff8c00 (orange), #d4691a (eclipseAmber), #ffd700 (moonGlow)
 - **Greens**: #2e8b57 (sea green)
-- **Yellows**: #daa520 (goldenrod)
-- **Accent**: Crimson with subtle eclipseRed
+- **Accent**: Blood moon reds with copper/amber highlights
 
-### Semantic Colors (Shared)
-- **Error**: #dc143c (crimson) / #ff757f (in Moonlight/II/III)
-- **Warning**: #daa520 (goldenrod) / #ffc777 (in Moonlight/II/III)
-- **Success**: #228b22 (forest green) / #c3e88d (in Moonlight/II/III), #2e8b57 (sea green in Eclipse)
-- **Info**: #6495ed (cornflower blue) / #82aaff (in Moonlight/II/III)
+### Semantic Colors
+- **Error**: #ff757f (in Moonlight/II/III), #cc0000 (bloodRed in Eclipse)
+- **Warning**: #ffc777 (in Moonlight/II/III), #d4691a (eclipseAmber in Eclipse)
+- **Success**: #c3e88d (in Moonlight/II/III), #2e8b57 (sea green in Eclipse)
+- **Info**: #82aaff (in Moonlight/II), #6495ed (in III/Eclipse)
 
 ## Theme Structure
 
@@ -143,7 +143,7 @@ Themes use variations of the moonlight palette with comprehensive color definiti
 ├── moonlight.json         # Classic theme with blue-tinted grays
 ├── moonlight-ii.json      # Enhanced theme with blue-tinted grays
 ├── moonlight-iii.json     # Green-accented variant with neutral grays
-└── moonlight-eclipse.json # Darker variant with red-tinted grays
+└── moonlight-eclipse.json # Darker variant with deep red-tinted grays
 ```
 
 The themes follow the [opencode.ai](https://github.com/sst/opencode) JSON theme format with:
