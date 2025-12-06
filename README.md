@@ -126,14 +126,14 @@ Themes use variations of the moonlight palette with comprehensive color definiti
 - **Grays**: Deep red-tinted (#0d0808 to #f5e6e6)
 - **Blues**: #5f8dd3 (muted), #4169e1 (dark)
 - **Reds**: #cc0000 (bloodRed), #dc143c (crimson), #8b0000 (darkCrimson), #b22222 (firebrick), #8b4513 (eclipseRust), #b87333 (eclipseCopper), #c04000 (eclipseMahogany)
-- **Yellows/Oranges**: #daa520 (goldenrod), #ff8c00 (orange), #d4691a (eclipseAmber), #ffd700 (moonGlow)
-- **Greens**: #2e8b57 (sea green)
-- **Accent**: Blood moon reds with copper/amber highlights
+- **Yellows/Oranges**: #daa520 (goldenrod), #ff8c00 (orange), #d4691a (eclipseAmber)
+- **Greens**: #6b8e23 (olive)
+- **Accent**: Blood moon reds with copper/amber highlights and olive penumbral edge
 
 ### Semantic Colors
 - **Error**: #ff757f (in Moonlight/II/III), #cc0000 (bloodRed in Eclipse)
 - **Warning**: #ffc777 (in Moonlight/II/III), #d4691a (eclipseAmber in Eclipse)
-- **Success**: #c3e88d (in Moonlight/II/III), #2e8b57 (sea green in Eclipse)
+- **Success**: #c3e88d (in Moonlight/II/III), #6b8e23 (olive in Eclipse)
 - **Info**: #82aaff (in Moonlight/II), #6495ed (in III/Eclipse)
 
 ## Theme Structure
