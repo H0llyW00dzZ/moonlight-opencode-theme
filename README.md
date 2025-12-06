@@ -103,7 +103,7 @@ The theme uses the moonlight color scheme with comprehensive color definitions:
 ```
 .opencode/themes/
 ├── moonlight.json      # Classic theme with solid backgrounds
-└── moonlight-ii.json   # Enhanced theme with transparent backgrounds
+└── moonlight-ii.json   # Enhanced theme with solid backgrounds
 ```
 
 The themes follow the opencode.ai JSON theme format with:
