@@ -15,13 +15,14 @@
     "gray12": "#c0baba",
     "gray13": "#d0caca",
     "gray14": "#e0dada",
-    "gray15": "#f0eaea",
+    "gray15": "#f0f0f0",
     "blue": "#6495ed",
     "blueDark": "#4169e1",
     "red": "#dc143c",
     "redDark": "#b22222",
     "green": "#2e8b57",
-    "yellow": "#daa520"
+    "yellow": "#daa520",
+    "eclipseRed": "#8b4513"
   },
   "theme": {
     "background": {
