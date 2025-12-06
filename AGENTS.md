@@ -13,3 +13,4 @@
 - **Error Handling**: Ensure themes validate against schema; avoid invalid hex or missing dark/light variants.
 - **Structure**: Include "$schema", "defs" for colors, "theme" with dark/light objects referencing defs.
 - **Consistency**: Match moonlight palette; use semantic colors for UI elements.
+- **Editing**: Always read file first before editing to ensure changes apply correctly.
