@@ -6,6 +6,7 @@ Minimal, frameless dark themes for [opencode.ai](https://github.com/sst/opencode
 
 - **[Moonlight](.opencode/themes/moonlight.json)**: Classic dark theme with solid backgrounds
 - **[Moonlight II](.opencode/themes/moonlight-ii.json)**: Alternative variant with refined color accents
+- **[Moonlight III](.opencode/themes/moonlight-iii.json)**: Green-accented variant with yellow code elements, evoking lunar landscapes
 
 ## Features
 
@@ -35,6 +36,11 @@ curl -o ~/.config/opencode/themes/moonlight.json https://raw.githubusercontent.c
 curl -o ~/.config/opencode/themes/moonlight-ii.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight-ii.json
 ```
 
+#### Moonlight III
+```bash
+curl -o ~/.config/opencode/themes/moonlight-iii.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight-iii.json
+```
+
 That's it! The themes are now available globally in [opencode.ai](https://github.com/sst/opencode).
 
 ## Usage
@@ -42,7 +48,7 @@ That's it! The themes are now available globally in [opencode.ai](https://github
 ### Using the themes
 
 1. Open [opencode.ai](https://github.com/sst/opencode)
-2. Type `/theme` and select `moonlight` or `moonlight-ii`
+ 2. Type `/theme` and select `moonlight`, `moonlight-ii`, or `moonlight-iii`
 3. Or add it to your `opencode.json` config:
 
 ```json
@@ -58,6 +64,15 @@ or
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "moonlight-ii"
+}
+```
+
+or
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "moonlight-iii"
 }
 ```
 
@@ -103,7 +118,8 @@ The theme uses the moonlight color scheme with comprehensive color definitions:
 ```
 .opencode/themes/
 ├── moonlight.json      # Classic theme with solid backgrounds
-└── moonlight-ii.json   # Enhanced theme with solid backgrounds
+├── moonlight-ii.json   # Enhanced theme with solid backgrounds
+└── moonlight-iii.json  # Green-accented variant with yellow elements
 ```
 
 The themes follow the [opencode.ai](https://github.com/sst/opencode) JSON theme format with:
