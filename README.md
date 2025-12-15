@@ -6,6 +6,7 @@ Minimal, frameless dark themes for [opencode.ai](https://github.com/sst/opencode
 
 - **[Moonlight](.opencode/themes/moonlight.json)**: Classic dark theme with blue-tinted grays and vibrant blues/teals
 - **[Moonlight II](.opencode/themes/moonlight-ii.json)**: Alternative variant with blue-tinted grays and refined teal accents
+- **[Moonlight II BG Transparent](.opencode/themes/moonlight-ii-bg-transparent.json)**: Moonlight II variant with transparent background
 - **[Moonlight III](.opencode/themes/moonlight-iii.json)**: Green-accented variant with neutral grays, toned blues, and yellow code elements, evoking lunar landscapes
 - **[Moonlight Eclipse](.opencode/themes/moonlight-eclipse.json)**: Darker variant with deep red-tinted grays, blood moon reds (crimson, copper, mahogany), and amber glow for lunar eclipse effect
 
@@ -37,6 +38,11 @@ curl -o ~/.config/opencode/themes/moonlight.json https://raw.githubusercontent.c
 curl -o ~/.config/opencode/themes/moonlight-ii.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight-ii.json
 ```
 
+#### Moonlight II BG Transparent
+```bash
+curl -o ~/.config/opencode/themes/moonlight-ii-bg-transparent.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight-ii-bg-transparent.json
+```
+
 #### Moonlight III
 ```bash
 curl -o ~/.config/opencode/themes/moonlight-iii.json https://raw.githubusercontent.com/h0llyw00dzz/moonlight-opencode-theme/master/.opencode/themes/moonlight-iii.json
@@ -54,7 +60,7 @@ That's it! The themes are now available globally in [opencode.ai](https://github
 ### Using the themes
 
 1. Open [opencode.ai](https://github.com/sst/opencode)
-  2. Type `/theme` and select `moonlight`, `moonlight-ii`, `moonlight-iii`, or `moonlight-eclipse`
+  2. Type `/theme` and select `moonlight`, `moonlight-ii`, `moonlight-ii-bg-transparent`, `moonlight-iii`, or `moonlight-eclipse`
 3. Or add it to your `opencode.json` config:
 
 ```json
@@ -70,6 +76,15 @@ or
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "moonlight-ii"
+}
+```
+
+or
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "moonlight-ii-bg-transparent"
 }
 ```
 
@@ -142,6 +157,7 @@ Themes use variations of the moonlight palette with comprehensive color definiti
 .opencode/themes/
 ├── moonlight.json         # Classic theme with blue-tinted grays
 ├── moonlight-ii.json      # Enhanced theme with blue-tinted grays
+├── moonlight-ii-bg-transparent.json # Moonlight II with transparent background
 ├── moonlight-iii.json     # Green-accented variant with neutral grays
 └── moonlight-eclipse.json # Darker variant with deep red-tinted grays
 ```
